@@ -1,1 +1,4 @@
 
+if($('li#nav-users').hasClass('nav-link-current')){
+  $('<div class="middle-column-content-container column-content-container"> <div class="middle-items-header header"> <div class="tab-div"> <ul id="type-tabs" class="nav nav-tabs" role="tablist"> <li id="extension-tab-li" role="presentation" class="active"><a href="#extension-panel" id="extension-tab" aria-controls="profile" role="tab" data-toggle="tab" data-search-type="extension">Extensions</a> </li><li id="voicemail-tab-li" role="presentation"><a href="#voicemail-panel" id="voicemail-tab" aria-controls="profile" role="tab" data-toggle="tab" data-search-type="voicemails">Voicemail Boxes</a></li></ul> </div></div><div class="tab-content middle-items-container clearfix" id="tab-panels"> <div role="tabpanel" class="tab-pane fade in active" id="extension-panel"> </div><div role="tabpanel" class="tab-pane fade" id="voicemail-panel"> </div></div></div>').insertAfter('#header');
+}
